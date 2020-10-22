@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using UnityEngine;
@@ -214,6 +215,7 @@ public class  Client
     {
         player = NetworkManager.Instance.InstantiatePlayer();
         player.Initialize(id, _playerName);
+        
 
         // Send all players to the new player
         foreach (Client _client in Server.clients.Values)
@@ -234,6 +236,17 @@ public class  Client
             {
                 ServerSend.SpawnPlayer(_client.id, player);
             }
+        }
+    }
+
+    public void SpawnPrefabs()
+    {
+        for (int i = 0; i < NetworkManager.spawnedObjects.Count; i++)
+        {
+            var spawnedObject = NetworkManager.spawnedObjects[i];
+            Debug.Log($"sending Network Spawn Id {spawnedObject.PrefabID}");
+            
+            ServerSend.SpawnPrefab(this.id, spawnedObject.PrefabID, spawnedObject.NetwordID, spawnedObject.Object.transform);
         }
     }
 

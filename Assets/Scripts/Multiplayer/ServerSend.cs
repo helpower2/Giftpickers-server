@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ServerSend
 {
+    #region SendData
+    
     /// <summary>Sends a packet to a client via TCP.</summary>
     /// <param name="_toClient">The client to send the packet the packet to.</param>
     /// <param name="_packet">The packet to send to the client.</param>
@@ -71,8 +73,10 @@ public class ServerSend
             }
         }
     }
-
+    #endregion
+    
     #region Packets
+    
     /// <summary>Sends a welcome message to the given client.</summary>
     /// <param name="_toClient">The client to send the packet to.</param>
     /// <param name="_msg">The message to send.</param>
@@ -86,7 +90,8 @@ public class ServerSend
             SendTCPData(_toClient, _packet);
         }
     }
-
+    
+    
     /// <summary>Tells a client to spawn a player.</summary>
     /// <param name="_toClient">The client that should spawn the player.</param>
     /// <param name="_player">The player to spawn.</param>
@@ -128,5 +133,66 @@ public class ServerSend
             SendUDPDataToAll(_player.id, _packet);
         }
     }
+
+    /// <summary>
+    /// Send a Object's updated location to all clients
+    /// </summary>
+    /// <param name="_transform">the Object whose location to update</param>
+    public static void ObjectTransform(NetworkTransform _transform)
+    {
+        using (Packet _packet = new Packet((int) ServerPackets.ObjectTransform))
+        {
+            _packet.Write(_transform._networkId);
+            _packet.Write(_transform.transform.position);
+            _packet.Write(_transform.transform.rotation);
+            _packet.Write(_transform.transform.localScale);
+            
+            SendUDPDataToAll(_packet);
+        }
+    }
+    /// <summary>
+    /// Tells the client to spawn a new prefab
+    /// </summary>
+    /// <param name="_prefabId">the Id of the prefab</param>
+    /// <param name="_networkId">the uniqe network key</param>
+    /// <param name="_transform">the transform</param>
+    public static void SpawnPrefab(int _prefabId, int _networkId, Transform _transform)
+    {
+        using (Packet _packet = new Packet((int) ServerPackets.SpawnPrefab))
+        {
+            _packet.Write(_prefabId);
+            _packet.Write(_networkId);
+            _packet.Write(_transform.position);
+            _packet.Write(_transform.rotation);
+            _packet.Write(_transform.localScale);
+            
+            SendTCPDataToAll(_packet);
+        }
+    }
+
+    /// <summary>
+    /// Tells the client to spawn a new prefab
+    /// </summary>
+    /// <param name="_prefabId">the Id of the prefab</param>
+    /// <param name="_networkId">the uniqe network key</param>
+    /// <param name="_transform">the transform</param>
+    /// <param name="_toClient">the client to send it to</param>
+    public static void SpawnPrefab(int _toClient, int _prefabId, int _networkId, Transform _transform)
+    {
+        using (Packet _packet = new Packet((int) ServerPackets.SpawnPrefab))
+        {
+            _packet.Write(_prefabId);
+            _packet.Write(_networkId);
+            _packet.Write(_transform.position);
+            _packet.Write(_transform.rotation);
+            _packet.Write(_transform.localScale);
+            
+            SendTCPData(_toClient, _packet);
+        }
+    }
+
+
+
     #endregion
+    
 }

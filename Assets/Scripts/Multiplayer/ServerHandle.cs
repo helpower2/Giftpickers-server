@@ -15,6 +15,10 @@ public class ServerHandle
             Debug.Log($"Player \"{_username}\" (ID: {_fromClient}) has assumed the wrong client ID ({_clientIdCheck})!");
         }
         Server.clients[_fromClient].SendIntoGame(_username);
+        //get all networked instanciate perfabs
+        Server.clients[_fromClient].SpawnPrefabs();
+        
+        
     }
 
     public static void PlayerMovement(int _fromClient, Packet _packet)
