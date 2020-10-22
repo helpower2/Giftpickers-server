@@ -31,4 +31,10 @@ public class ServerHandle
         Quaternion _rotation = _packet.ReadQuaternion();
         Server.clients[_fromClient].player.SetInput(_inputs, _rotation);
     }
+
+    public static void chatMassage(int _fromclient, Packet _packet)
+    {
+        string massage = _packet.ReadString();
+        Server.clients[_fromclient].SendMassage(massage);
+    }
 }

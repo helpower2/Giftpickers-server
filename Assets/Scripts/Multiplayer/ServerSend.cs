@@ -82,7 +82,7 @@ public class ServerSend
     /// <param name="_msg">The message to send.</param>
     public static void Welcome(int _toClient, string _msg)
     {
-        using (Packet _packet = new Packet((int)ServerPackets.welcome))
+        using (Packet _packet = new Packet((int)ServerPackets.Welcome))
         {
             _packet.Write(_msg);
             _packet.Write(_toClient);
@@ -97,7 +97,7 @@ public class ServerSend
     /// <param name="_player">The player to spawn.</param>
     public static void SpawnPlayer(int _toClient, Player _player)
     {
-        using (Packet _packet = new Packet((int)ServerPackets.spawnPlayer))
+        using (Packet _packet = new Packet((int)ServerPackets.SpawnPlayer))
         {
             _packet.Write(_player.id);
             _packet.Write(_player.username);
@@ -112,7 +112,7 @@ public class ServerSend
     /// <param name="_player">The player whose position to update.</param>
     public static void PlayerPosition(Player _player)
     {
-        using (Packet _packet = new Packet((int)ServerPackets.playerPosition))
+        using (Packet _packet = new Packet((int)ServerPackets.PlayerPosition))
         {
             _packet.Write(_player.id);
             _packet.Write(_player.transform.position);
@@ -125,7 +125,7 @@ public class ServerSend
     /// <param name="_player">The player whose rotation to update.</param>
     public static void PlayerRotation(Player _player)
     {
-        using (Packet _packet = new Packet((int)ServerPackets.playerRotation))
+        using (Packet _packet = new Packet((int)ServerPackets.PlayerRotation))
         {
             _packet.Write(_player.id);
             _packet.Write(_player.transform.rotation);
@@ -191,7 +191,14 @@ public class ServerSend
         }
     }
 
-
+    public static void SendMassage(string _massage)
+    {
+        using (var _packet = new Packet((int) ServerPackets.ChatMassage))
+        {
+            _packet.Write(_massage);
+            SendTCPDataToAll(_packet);
+        }
+    }
 
     #endregion
     

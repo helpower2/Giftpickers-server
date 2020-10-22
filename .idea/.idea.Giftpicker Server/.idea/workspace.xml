@@ -11,153 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74553683-0245-4dc8-b4a1-2508d3aad722" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Licensingshit.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Licensingshit/License generic-serializable-dictionary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Licensingshit/License generic-serializable-dictionary.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/players.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/players.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/bench.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/bench.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinCorner.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinCorner.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinDoor.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinDoor.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinFloor.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinFloor.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoof.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoof.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofCenter.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofCenter.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofChimney.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofChimney.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofCorner.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofCorner.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofFlat.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinRoofFlat.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinSide.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinSide.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinSideCenter.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinSideCenter.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWallHalf.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWallHalf.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWindow.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWindow.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWindowHalf.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWindowHalf.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWindowLarge.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/cabinWindowLarge.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/candyCane.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/candyCane.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/candyCaneMint.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/candyCaneMint.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/festivusPole.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/festivusPole.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/hanukkahDreidel.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/hanukkahDreidel.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/hanukkahMenorah.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/hanukkahMenorah.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/kwanzaaKikombe.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/kwanzaaKikombe.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/kwanzaaKinara.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/kwanzaaKinara.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/kwanzaaKinaraAlternative.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/kwanzaaKinaraAlternative.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightpost.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightpost.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightpostHanging.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightpostHanging.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightsGreen.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightsGreen.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightsMulti.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightsMulti.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightsRed.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/lightsRed.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/present.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/present.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentGreen.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentGreen.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentGreenLow.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentGreenLow.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentGreenRound.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentGreenRound.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentLow.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentLow.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentRound.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/presentRound.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/rockFormationLarge.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/rockFormationLarge.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/rockFormationMedium.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/rockFormationMedium.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/rockFormationSmall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/rockFormationSmall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/sled.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/sled.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowFort.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowFort.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowPatch.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowPatch.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowman.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowman.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowmanFancy.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/snowmanFancy.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackCornerLarge.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackCornerLarge.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackCornerSmall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackCornerSmall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackSimpleCornerLarge.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackSimpleCornerLarge.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackSimpleCornerSmall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackSimpleCornerSmall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackSimpleStraight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackSimpleStraight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackStraight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trackStraight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainLocomotive.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainLocomotive.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainTender.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainTender.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainWagon.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainWagon.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainWagonFlat.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainWagonFlat.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainWagonShort.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/trainWagonShort.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treeDecorated.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treeDecorated.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePine.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePine.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePineSnow.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePineSnow.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePineSnowRound.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePineSnowRound.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePineSnowed.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/treePineSnowed.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/wreath.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/wreath.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cabin 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cabin 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TeamBase.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TeamBase.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Editor/GenericDictionaryPropertyDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Editor/GenericDictionaryPropertyDrawer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/GenericDictionary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/GenericDictionary.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkTransform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkTransform.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Giftpicker Server/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Giftpicker Server/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Giftpicker Server/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Giftpicker Server/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Giftpicker Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Giftpicker Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Packet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Packet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Server.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/ServerHandle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/ServerHandle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/ServerSend.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/ServerSend.cs" afterDir="false" />
     </list>
@@ -179,9 +36,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Client.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Server.cs" />
         <option value="$PROJECT_DIR$/../Giftpicker Client/Assets/Scripts/Multiplayer/NetworkTransform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Packet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkTransform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/Editor/SerializableDictionaryPropertyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/SerializableHashSet.cs" />
@@ -189,10 +44,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/GenericDictionary.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/GenericDictionaryPropertyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/ServerSend.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkChat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Packet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Server.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/ServerHandle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/Client.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplayer/ServerSend.cs" />
       </list>
     </option>
   </component>
@@ -251,7 +109,7 @@
       <updated>1603278669421</updated>
       <workItem from="1603278679710" duration="743000" />
       <workItem from="1603301274663" duration="4022000" />
-      <workItem from="1603313581733" duration="10271000" />
+      <workItem from="1603313581733" duration="13470000" />
     </task>
     <servers />
   </component>
@@ -280,9 +138,9 @@
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="-1837" y="0" width="1293" height="811" key="dock-window-1/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1603361322644" />
-    <state x="-1495" y="187" key="run.anything.popup" timestamp="1603316344684">
+    <state x="-1495" y="187" key="run.anything.popup" timestamp="1603375131032">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state x="-1495" y="187" key="run.anything.popup/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1603316344684" />
+    <state x="-1495" y="187" key="run.anything.popup/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1603375131032" />
   </component>
 </project>

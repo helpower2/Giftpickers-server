@@ -250,6 +250,12 @@ public class  Client
         }
     }
 
+    public void SendMassage(string _massage)
+    {
+        string massage = $"{player.username}: {_massage}";
+        ServerSend.SendMassage(massage);
+    }
+
     /// <summary>Disconnects the client and stops all network traffic.</summary>
     private void Disconnect()
     {

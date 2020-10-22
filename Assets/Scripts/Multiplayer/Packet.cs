@@ -7,19 +7,21 @@ using UnityEngine;
 /// <summary>Sent from server to client.</summary>
 public enum ServerPackets
 {
-    welcome = 1,
-    spawnPlayer = 2,
-    playerPosition = 3,
-    playerRotation = 4,
+    Welcome = 1,
+    SpawnPlayer = 2,
+    PlayerPosition = 3,
+    PlayerRotation = 4,
     ObjectTransform = 5,
-    SpawnPrefab = 6
+    SpawnPrefab = 6,
+    ChatMassage = 7
 }
 
 /// <summary>Sent from client to server.</summary>
 public enum ClientPackets
 {
-    welcomeReceived = 1,
-    playerMovement
+    WelcomeReceived = 1,
+    PlayerMovement = 2,
+    ChatMassage = 3
 }
 
 public class Packet : IDisposable
